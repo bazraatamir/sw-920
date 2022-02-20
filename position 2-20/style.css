@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.big{
+    width: 500px;
+    height: 200vh;
+    background-color: aqua;
+    position: relative;
+}
+.child{
+    width: 200px;
+    height: 100px;
+    
+}
+.child-1{
+    background-color: aquamarine;
+   position: absolute;
+   z-index:1;
+   
+}
+.child-2{
+    background-color: rebeccapurple;
+    position: relative;
+    z-index:2;
+}
+.child-3{
+    background-color: brown;
+}
+.child-4{
+    background-color: red;
+}
