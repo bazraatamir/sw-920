@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1d1d1d;
+}
+header{
+    width: 100%;
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #666 1px solid;
+    position: relative;
+}
+header .logo{
+    width: 15%;
+    height: 100%;
+    
+
+}
+header .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding-left: 15px;
+}
+
+header .menu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+   
+}
+header .menu .menu-item{
+    width: 33%;
+    height: 100%;
+    border-left: 1px solid #666;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+header .menu .menu-item i{
+    color: #999;
+    font-size: 20px;
+}
+header .menu .menu-item:hover .drop{
+    visibility: visible;
+    opacity: 1;
+}
+header .menu .menu-item .drop{
+    position: absolute;
+    top: 61px;
+    width: 20%;
+    height: 100px;
+    background-color: #00b3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    visibility: hidden;
+    opacity: 0;
+
+}
+header .menu .menu-item .drop-1{
+    width: 20%;
+    background-color: #000;
+    position: absolute;
+    top: 61px;
+    right: 0;
+    border-top: 4px solid #00b3ff;
+}
+header .menu .menu-item .drop .drop-item{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+header .menu .menu-item .drop .drop-item input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.menu .menu-item .drop-1 .drop-item-1 {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.menu .menu-item .drop-1 .drop-item-1 .item{
+    width: 97%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-bottom: 4px #666 dotted;
+    
+
+}
+.menu .menu-item .drop-1 .drop-item-1 .item i{
+    color: #999;
+    font-size: 20px;
+}
+.menu .menu-item .drop-1 .drop-item-1 .item p{
+    font-style: bold;
+    color: #999;
+    margin-left: 7px;
+}
