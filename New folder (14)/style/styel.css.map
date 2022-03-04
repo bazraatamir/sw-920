@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB;;AACD,AAAA,KAAK,CAAC;EACF,WAAW,EAAC,GAAG;CAClB;;AACD,AAAA,KAAK,CAAC;EACF,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;CACjC",
+    "sources": [
+        "styel.scss",
+        "_color.scss",
+        "_mix.scss"
+    ],
+    "names": [],
+    "file": "styel.css"
+}
