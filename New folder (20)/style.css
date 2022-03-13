@@ -1,0 +1,41 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    background-color: aqua;
+}
+.desktop-menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.desktop-menu .menu-item{
+    width: 50%;
+    height: 61px;
+}
+.desktop-menu .menu-item ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+nav .mobile-menu{
+    display: none;
+}
+@media screen and (max-width:1024px) {
+    body{
+        background-color: aquamarine;
+    }
+    nav .mobile-menu{
+        display: block;
+    }
+    .desktop-menu{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:720px){
+    body{
+        background-color: blue;
+    }
+    
+}
