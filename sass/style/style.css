@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.big {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.big .left {
+  width: 50%;
+  height: 100%;
+  background-color: #a84032;
+}
+
+.big .left .menu {
+  width: 100%;
+  height: 60px;
+}
+
+.big .left .menu h1 {
+  color: white;
+  margin-left: 10px;
+}
+
+.big .left .main {
+  width: 100%;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.big .left .main h2 {
+  color: white;
+  font-size: 1.5rem;
+  width: 60%;
+  text-align: center;
+}
+
+.big .rigth {
+  width: 50%;
+  height: 100vh;
+}
+
+.big .rigth .menu {
+  width: 100%;
+  height: 60px;
+}
+
+.big .rigth .menu ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  color: #a84032;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.big .rigth .main {
+  width: 100%;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.big .rigth .main h2 {
+  color: white;
+  font-size: 1.5rem;
+  width: 60%;
+  text-align: center;
+  color: #a84032;
+}
+/*# sourceMappingURL=style.css.map */
