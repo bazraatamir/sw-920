@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.big{
+   width: 400px;
+   height: 400px;
+   background-color: aquamarine;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.big .container{
+    width: 80%;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.big .container #addBtn{
+    background-color: gray;
+    width: 50px;
+    border-radius: 5px;
+}
+.big .tasks{
+    width: 80%;
+    height: 300px;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border-radius: 10px;
+}
+.big .tasks .task{
+    width: 80%;
+    height: 30px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+
+}
+.big .tasks .task .trash{
+    width: 30px;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.big .tasks .task .trash i{
+color: #000;
+}
