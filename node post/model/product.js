@@ -1,9 +1,10 @@
 const Sequelize = require('sequelize');
 const sequelize = require('../db_utils/connection');
-const Product =sequelize.define({
+
+const Products = sequelize.define( 'products',{
     id:{
         type:Sequelize.INTEGER,
-        primarykey:true,
+        primaryKey:true,
         autoIncrement:true,
         allowNull:false
     },
@@ -22,10 +23,9 @@ const Product =sequelize.define({
     price:{
         type:Sequelize.DOUBLE,
         allowNull:false
-    },
-    {
-        tableName: 'Product'
     }
-    
-});
-module.exports = Product
+}
+);
+
+console.log(Products===sequelize.model.Products)
+module.exports = Products
