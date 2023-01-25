@@ -1,30 +1,22 @@
-// const Sequelize = require('sequelize');
-// const sequelize = require('../db_utils/connection');
-const getdb =require('../db_utils/connection').getdb
-class product {
-    constructor(avatar,title,description,price){
-        this.avatar=avatar,
-        this.title=title,
-        this.description=description,
-        this.price=price
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+const productSchema = new Schema({
+    avatar:{
+        type:String,
+        required:true
+    },
+    title:{
+        type:String,
+        required:true
+    },
+    description:{
+        type:String,
+        required:true
+    },
+    price:{
+        type:Number,
+        required:true
     }
-   save = ()=>{
-    let db = getdb();
-    console.log(db.collection)
-        db.collection('product')
-        .insertOne(this)
-        .then((result)=>{
-            console.log(result)
-        })
-        .catch(err=>{
-           throw err
-        })
-        
-
-   }
-}
-
-
-
-
-module.exports = product
+})
+module.exports = mongoose.model('product',productSchema);
